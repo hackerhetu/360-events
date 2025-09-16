@@ -1,13 +1,11 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import { useEffect } from "react";
 import Header from "../../components/Header";
 import Hero from "../../components/Hero";
 import Footer from "../../components/Footer";
 import WhatsAppCommunity from "../../components/WhatsAppCommunity";
 
 export default function Home() {
-  const [isBookingOpen, setIsBookingOpen] = useState(false);
-
   useEffect(() => {
     const style = document.createElement("style");
     style.textContent = `
