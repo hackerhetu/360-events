@@ -1,9 +1,9 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Header from "../../../../components/Header";
 import Footer from "../../../../components/Footer";
 import WhatsAppCommunity from "../../../../components/WhatsAppCommunity";
-import { Heart, Users, Star, Trophy, Music, Sparkles } from "lucide-react";
+import { Heart, Users, Star, Trophy, Sparkles } from "lucide-react";
 
 const AboutUsPage = () => {
   const [isClient, setIsClient] = useState(false);
@@ -167,14 +167,15 @@ const AboutUsPage = () => {
                 </p>
                 <p className="text-lg">
                   What started as a small community gathering has grown into
-                  Gujarat's most trusted name for premium Garba and Dandiya
-                  events. We've had the privilege of hosting over 100 successful
-                  events, touching the lives of more than 50,000 devotees.
+                  Gujarat&apos;s most trusted name for premium Garba and Dandiya
+                  events. We&apos;ve had the privilege of hosting over 100
+                  successful events, touching the lives of more than 50,000
+                  devotees.
                 </p>
                 <p className="text-lg">
-                  Our commitment goes beyond entertainment - we're preserving
-                  cultural heritage, fostering community bonds, and creating
-                  sacred spaces where tradition meets celebration.
+                  Our commitment goes beyond entertainment - we&apos;re
+                  preserving cultural heritage, fostering community bonds, and
+                  creating sacred spaces where tradition meets celebration.
                 </p>
               </div>
             </div>
@@ -186,9 +187,9 @@ const AboutUsPage = () => {
                     Our Mission
                   </h3>
                   <p className="text-purple-100 text-lg leading-relaxed">
-                    "To create divine celebrations that honor our traditions,
-                    unite our communities, and spread the blessings of Maa Durga
-                    through authentic Navratri experiences."
+                    &quot;To create divine celebrations that honor our
+                    traditions, unite our communities, and spread the blessings
+                    of Maa Durga through authentic Navratri experiences.&quot;
                   </p>
                 </div>
               </div>

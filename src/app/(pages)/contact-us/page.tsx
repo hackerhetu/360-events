@@ -159,7 +159,7 @@ Sent from Navratri Celebrations Website`;
             Contact Us
           </h1>
           <p className="text-xl md:text-2xl text-purple-100 max-w-3xl mx-auto leading-relaxed drop-shadow-lg">
-            {"Let's create"}{" "}
+            Let&apos;s create{" "}
             <span className="text-amber-300 font-bold">
               divine celebrations
             </span>{" "}
@@ -409,7 +409,7 @@ Sent from Navratri Celebrations Website`;
               Ready to <span className="text-amber-300">Celebrate</span>?
             </h2>
             <p className="text-xl text-purple-100 mb-8 leading-relaxed">
-              Don't miss out on the most divine Navratri celebrations in
+              Don&apos;t miss out on the most divine Navratri celebrations in
               Gujarat!
               <br />
               <span className="text-amber-300 font-semibold">
