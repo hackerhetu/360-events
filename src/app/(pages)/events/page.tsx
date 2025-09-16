@@ -1,14 +1,13 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import BookingForm from "../../../../components/BookingForm";
 import WhatsAppCommunity from "../../../../components/WhatsAppCommunity";
 import Header from "../../../../components/Header";
 import Footer from "../../../../components/Footer";
 import { Star } from "lucide-react";
-import EventCard from "../../../../components/EventCard";
 
 // Import types from your event.ts file
-import { Event } from "../../../../types/event";
+import type { Event } from "../../../../types/event";
 
 const EventsPage = () => {
   const [selectedEvent, setSelectedEvent] = useState<Event | null>(null);
@@ -164,7 +163,7 @@ const EventsPage = () => {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            const eventId = parseInt(
+            const eventId = Number.parseInt(
               entry.target.getAttribute("data-event-id") || "0"
             );
             setVisibleEvents((prev) => [...prev, eventId]);

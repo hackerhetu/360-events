@@ -1,5 +1,6 @@
 "use client";
-import React, { useState } from "react";
+import type React from "react";
+import { useState } from "react";
 import Header from "../../../../components/Header";
 import Footer from "../../../../components/Footer";
 import WhatsAppCommunity from "../../../../components/WhatsAppCommunity";
@@ -158,7 +159,7 @@ Sent from Navratri Celebrations Website`;
             Contact Us
           </h1>
           <p className="text-xl md:text-2xl text-purple-100 max-w-3xl mx-auto leading-relaxed drop-shadow-lg">
-            Let's create{" "}
+            {"Let's create"}{" "}
             <span className="text-amber-300 font-bold">
               divine celebrations
             </span>{" "}
